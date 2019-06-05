@@ -2,7 +2,7 @@
 #### 准备域名
 1. 准备一个域名, 可以去 <a href="https://my.freenom.com/">freenom</a> 申请一个免费域名.
 
-2. 将申请到的域名交由 <a href="https://dash.cloudflare.com/"> CLOUDFLARE </a> 解析, 且将 Status 的状态改为 DNS only(把云朵点灰). PS: 如果想使用子域名, 则添加一条 A 记录.
+2. 将申请到的域名交由 <a href="https://dash.cloudflare.com/"> CLOUDFLARE </a> 解析, 且将 Status 的状态改为 DNS only(把云朵点灰).<br>PS: 如果想使用子域名, 则添加一条 A 记录.
 
 #### 安装 V2Ray
 <i>建议 Debian 9.x 以上以及 Ubuntu 16.04 以上的系统.</i>
