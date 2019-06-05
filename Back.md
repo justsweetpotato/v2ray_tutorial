@@ -1,4 +1,4 @@
-### 使用 WebSocket + TLS + CDN 救活被墙 IP
+### 使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP
 #### 准备域名
 1. 准备一个域名, 可以去 <a href="https://my.freenom.com/">freenom</a> 申请一个免费域名.
 
@@ -46,6 +46,7 @@ $ bash <(curl -L -s https://install.direct/go.sh)
 }
 ```
  启动: service v2ray start
+ <br>
  查看状态: service v2ray status
  
 #### 申请证书并设置到 Nginx
