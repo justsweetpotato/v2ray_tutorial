@@ -18,13 +18,13 @@ $ bash <(curl -L -s https://install.direct/go.sh)
  {
   "inbounds": [
     {
-      "port": 10000,//V2Ray 监听端口
-      "listen":"127.0.0.1",//只监听 127.0.0.1，避免除本机外的机器探测到开放了 10000 端口
+      "port": 10000, //V2Ray 监听端口
+      "listen":"127.0.0.1", //只监听 127.0.0.1，避免除本机外的机器探测到开放了 10000 端口
       "protocol": "vmess",
       "settings": {
         "clients": [
           {
-            "id": "b831381d-6324-4d53-ad4f-8cda48b30811",//一个 UUID 组成的密钥
+            "id": "b831381d-6324-4d53-ad4f-8cda48b30811", //一个 UUID 组成的密钥
             "alterId": 64
           }
         ]
@@ -59,7 +59,7 @@ $ apt install nginx
 server {
     charset utf-8;
     listen 80;
-    server_name mydomain.com;
+    server_name <domain>;
 
     location / {
         proxy_set_header Host 'www.google.com';
@@ -67,8 +67,12 @@ server {
     }
 }
 ```
+启动 nginx 
+```
+$ nginx
+```
 
-2. 安装 acme.sh
+2. 安装 acme.sh(用来生成证书)
 ```
 $ curl  https://get.acme.sh | sh
 ```
@@ -78,7 +82,7 @@ $ ~/.acme.sh/
 
 3. 为网站生成证书
 ```
-$ ./acme.sh --issue  -d mydomain.com   --nginx
+$ ./acme.sh --issue  -d <domain>  --nginx
 ```
 
 4. Copy/install 证书
@@ -86,19 +90,19 @@ $ ./acme.sh --issue  -d mydomain.com   --nginx
 $ mkdir /etc/nginx/ssl
 ```
 ```
-$ ./acme.sh  --installcert  -d  <domain>.com   \
+$ ./acme.sh  --installcert  -d  <domain> \
         --key-file   /etc/nginx/ssl/<domain>.key \
         --fullchain-file /etc/nginx/ssl/fullchain.cer \
         --reloadcmd  "service nginx force-reload"
 ```
 
-5. Nginx 配置
+5. Nginx 配置(覆盖之前简单设置的配置)
 ```
 server {
   listen  443 ssl;
   ssl on;
-  ssl_certificate       /etc/v2ray/v2ray.crt;
-  ssl_certificate_key   /etc/v2ray/v2ray.key;
+  ssl_certificate       /etc/nginx/ssl/fullchain.cer;
+  ssl_certificate_key   /etc/nginx/ssl/<domain>.key;
   ssl_protocols         TLSv1 TLSv1.1 TLSv1.2;
   ssl_ciphers           HIGH:!aNULL:!MD5;
   server_name           mydomain.me;
@@ -112,9 +116,7 @@ server {
         }
 }
 ```
-```
-$ nginx
-```
+重启一次 nginx
 ```
 $ nginx -s reload
 ```
