@@ -45,9 +45,14 @@ $ bash <(curl -L -s https://install.direct/go.sh)
   ]
 }
 ```
- 启动: service v2ray start
- <br>
- 查看状态: service v2ray status
+ 启动 V2Ray
+ ```
+ service v2ray start
+ ```
+ 查看 V2Ray 状态
+ ```
+ service v2ray status
+ ```
  
 #### 申请证书并设置到 Nginx
 1. 安装 Nginx 并简单设置一下
@@ -67,7 +72,7 @@ server {
     }
 }
 ```
-启动 nginx 
+启动 Nginx 
 ```
 $ nginx
 ```
@@ -116,7 +121,7 @@ server {
         }
 }
 ```
-重启一次 nginx
+重启一次 Nginx
 ```
 $ nginx -s reload
 ```
