@@ -45,7 +45,7 @@ $ bash <(curl -L -s https://install.direct/go.sh)
   ]
 }
 ```
- 启动 V2Ray
+ 启动 V2Ray(如果多次修改配置则用 service v2ray restart 重启)
  ```
  $ service v2ray start
  ```
