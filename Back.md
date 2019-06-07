@@ -1,10 +1,10 @@
-### 使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP
-#### 准备域名
+# 使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP
+### 准备域名
 1. 准备一个域名, 可以去 <a href="https://my.freenom.com/">freenom</a> 申请一个免费域名.
 
 2. 将申请到的域名交由 <a href="https://dash.cloudflare.com/"> CLOUDFLARE </a> 解析, 且将 Status 的状态改为 DNS only(把云朵点灰).<br>PS: 如果想使用子域名, 则添加一条 A 记录.
 
-#### 安装 V2Ray
+### 安装 V2Ray
 <i>建议 Debian 9.x 以上以及 Ubuntu 16.04 以上的系统.</i>
 
 1. 使用官方脚本安装.
@@ -54,7 +54,7 @@ $ bash <(curl -L -s https://install.direct/go.sh)
  $ service v2ray status
  ```
  
-#### 申请证书并设置到 Nginx
+### 申请证书并设置到 Nginx
 1. 安装 Nginx 并简单设置一下
 ```
 $ apt install nginx
@@ -126,11 +126,11 @@ server {
 $ nginx -s reload
 ```
 
-#### 设置 Crypto 和 开启中转
+### 设置 Crypto 和 开启中转
 1. 在 CLOUNDFLARE 的 Crypto 选项 SSL 设置为 Full
 2. 在 CLOUNDFLARE 的 DNS 选项 Status 设置为 DNS and HTTP proxy(CDN)(把云朵点亮).
 
-#### 客户端设置
+### 客户端设置
 ```
 {
   "inbounds": [
@@ -177,7 +177,7 @@ $ nginx -s reload
 }
 ```
 
-#### 参考资料
+### 参考资料
  1. <a href="https://233v2.com/post/5/">使用 V2Ray 的 WebSocket 传输协议 + Cloudflare 拯救被墙的 IP</a>
  2. <a href="https://233v2.com/post/3/">V2Ray 使用 Nginx 或 Caddy 实现 WebSocket + TLS 传输协议</a>
  3. <a href="https://justsweetpotato.wordpress.com/2018/11/03/v2ray-%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B/">V2ray 简易搭建教程</a>
