@@ -5,8 +5,8 @@
 使用 WebSocket + TLS + Nginx 搭建教程(筹备中...)
 
 <a href="https://github.com/justsweetpotato/V2Ray_Tutorial/blob/master/Back.md">使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP</a>
-
-以下是近期(2019/06) 翻墙状况报告, 不感兴趣可直接忽略.
+<hr>
+以下是近期(2019/06)<b>翻墙状况</b>报告, 不感兴趣可直接忽略.
 <hr>
 
 ### 问题分析
