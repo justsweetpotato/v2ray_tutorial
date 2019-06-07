@@ -1,5 +1,5 @@
 # 使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP
-<i>本教程不一定要用于被墙 IP, 你可以使用此教程来防止 IP 被封, 也可以去掉 CDN 转发仅使用 WebSocket + TLS + Nginx 的方式来达到更快速度, 有些服务器可能还会因为使用了 CDN 而更快, 看个人实际情况可做调整(未来我会单独写一篇 WebSocket + TLS + Nginx 教程的).</i>
+<i>本教程不一定要用于被墙 IP, 你可以使用此教程来防止 IP 被封, 也可以去掉 CDN 转发仅使用 WebSocket + TLS + Nginx 的方式来达到更快速度, 有些服务器可能还会因为使用了 CDN 而更快, 看个人实际情况可做调整(未来我会单独写一篇 WebSocket + TLS + Nginx 教程).</i>
 ### 准备域名
 1. 准备一个域名, 可以去 <a href="https://my.freenom.com/">freenom</a> 申请一个免费域名.
 
