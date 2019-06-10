@@ -111,7 +111,7 @@ server {
   ssl_certificate_key   /etc/nginx/ssl/<domain>.key;
   ssl_protocols         TLSv1 TLSv1.1 TLSv1.2;
   ssl_ciphers           HIGH:!aNULL:!MD5;
-  server_name           mydomain.me;
+  server_name           <domain>;
         location /ray { # 与 V2Ray 配置中的 path 保持一致
         proxy_redirect off;
         proxy_pass http://127.0.0.1:10000;#假设WebSocket监听在环回地址的10000端口上
