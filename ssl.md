@@ -60,7 +60,7 @@ server {
       }
 }
 ```
-重启 NginX
+重启 Nginx
 ```
 $ nginx -s reload
 ```
