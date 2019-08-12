@@ -8,7 +8,7 @@ $ cd .acme.sh/
 ```
 
 ### 生成证书
-<i>这里介绍使用 Nginx 配置证书的方式, 使用 Apache 或其他方式请点击首行链接查看官方说明</i>
+<i>这里介绍使用 Nginx 配置证书的方式, 使用 Apache 或其他方式请点击 <a href="https://github.com/Neilpang/acme.sh/wiki/%E8%AF%B4%E6%98%8E">这里</a> 查看官方说明</i>
 
 <b>安装并预配置</b> Nginx
 ```
