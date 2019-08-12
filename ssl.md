@@ -35,13 +35,13 @@ $ nginx
 ```
 <b>为网站生成证书</b>
 ```
-$ ./acme.sh --issue  -d <domain>  --nginx
+$ ./acme.sh --issue  -d mydomain.com  --nginx  # 例 goole.com
 ```
 <b>copy/install 证书</b>
 ```
 $ mkdir /etc/nginx/ssl  # 创建文件夹用于保存证书
-$ ./acme.sh  --installcert  -d  <domain> \
-        --key-file   /etc/nginx/ssl/<domain>.key \
+$ ./acme.sh  --installcert  -d  <domain>.com \  # 例 google.com
+        --key-file   /etc/nginx/ssl/<domain>.key \  # 例 goole.key
         --fullchain-file /etc/nginx/ssl/fullchain.cer \
         --reloadcmd  "service nginx force-reload"
 ```
