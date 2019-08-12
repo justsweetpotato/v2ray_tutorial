@@ -2,7 +2,7 @@
 <i>小白也能看得懂的 V2Ray 教程(也许吧XD).</i>
 
 ### 教程
-使用 WebSocket + TLS + Nginx 搭建教程(筹备中...)
+<a href="https://github.com/justsweetpotato/V2Ray_Tutorial/blob/master/ssl.md">使用 acme.sh 免费给网站配置证书</a>
 
 <a href="https://github.com/justsweetpotato/V2Ray_Tutorial/blob/master/Back.md">使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP</a>
 <hr>
