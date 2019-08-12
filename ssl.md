@@ -37,7 +37,7 @@ $ nginx
 ```
 <b>为网站生成证书</b>
 ```
-$ acme.sh --issue  -d mydomain.com  --nginx
+$ acme.sh --issue  -d mydomain.com  --nginx --force
 ```
 <b>copy/install 证书</b>
 ```
