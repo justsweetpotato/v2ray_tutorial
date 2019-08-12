@@ -83,7 +83,7 @@ $ nginx
 $ curl  https://get.acme.sh | sh
 ```
 ```
-$ ~/.acme.sh/
+$ cd .acme.sh/
 ```
 
 3. 为网站生成证书
