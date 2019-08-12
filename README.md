@@ -1,4 +1,4 @@
-# V2Ray_Tutorial
+# V2Ray 教程
 <i>小白也能看得懂的 V2Ray 教程(也许吧XD).</i>
 
 ### 教程
