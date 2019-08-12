@@ -91,7 +91,7 @@ $ cd .acme.sh/
 $ ./acme.sh --issue  -d <domain>  --nginx
 ```
 
-4. Copy/install 证书
+4. copy/install 证书
 ```
 $ mkdir /etc/nginx/ssl
 ```
