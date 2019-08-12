@@ -88,38 +88,39 @@ $ cd .acme.sh/
 
 3. 为网站生成证书
 ```
-$ ./acme.sh --issue  -d <domain>  --nginx
+$ acme.sh --issue  -d mydomain.com  --nginx --force
 ```
 
 4. copy/install 证书
 ```
 $ mkdir /etc/nginx/ssl
+# 创建文件夹用于保存证书, 不同的域名创建不同的文件夹避免被覆盖
 ```
 ```
-$ ./acme.sh  --installcert  -d  <domain> \
+$ acme.sh  --installcert  -d  <domain>.com   \
         --key-file   /etc/nginx/ssl/<domain>.key \
         --fullchain-file /etc/nginx/ssl/fullchain.cer \
-        --reloadcmd  "service nginx force-reload"
+        --reloadcmd  "nginx -s reload"
 ```
 
 5. Nginx 配置(覆盖之前简单设置的配置)
 ```
 server {
-  listen  443 ssl;
-  ssl on;
-  ssl_certificate       /etc/nginx/ssl/fullchain.cer;
-  ssl_certificate_key   /etc/nginx/ssl/<domain>.key;
-  ssl_protocols         TLSv1 TLSv1.1 TLSv1.2;
-  ssl_ciphers           HIGH:!aNULL:!MD5;
-  server_name           <domain>;
+    listen  443 ssl;
+    ssl on;
+    ssl_certificate       /etc/nginx/ssl/fullchain.cer;
+    ssl_certificate_key   /etc/nginx/ssl/<domain>.key;
+    ssl_protocols         TLSv1 TLSv1.1 TLSv1.2;
+    ssl_ciphers           HIGH:!aNULL:!MD5;
+    server_name           mydomain.com;
         location /ray { # 与 V2Ray 配置中的 path 保持一致
-        proxy_redirect off;
-        proxy_pass http://127.0.0.1:10000;#假设WebSocket监听在环回地址的10000端口上
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection "upgrade";
-        proxy_set_header Host $http_host;
-        }
+            proxy_redirect off;
+            proxy_pass http://127.0.0.1:10000;#假设WebSocket监听在环回地址的10000端口上
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection "upgrade";
+            proxy_set_header Host $http_host;
+            }
 }
 ```
 重启一次 Nginx
