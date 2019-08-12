@@ -3,8 +3,8 @@
 
 ### 安装 acme.sh
 ```
-$ curl  https://get.acme.sh | sh
-$ cd .acme.sh/
+$ curl  https://get.acme.sh | sh  # 此命令会在创建 ~/.acme.sh/ 文件夹
+$ cd .acme.sh/  # ~/.acme.sh/ 文件夹下有一个 .acme.sh 文件 注意不要混淆
 ```
 
 ### 生成证书
@@ -35,15 +35,15 @@ $ nginx
 ```
 <b>为网站生成证书</b>
 ```
-$ ./acme.sh --issue  -d mydomain.com  --nginx  # 例 goole.com
+$ acme.sh --issue  -d mydomain.com  --nginx  
 ```
 <b>copy/install 证书</b>
 ```
 $ mkdir /etc/nginx/ssl  # 创建文件夹用于保存证书
-$ ./acme.sh  --installcert  -d  <domain>.com \  # 例 google.com
-        --key-file   /etc/nginx/ssl/<domain>.key \  # 例 goole.key
+$ acme.sh  --installcert  -d  <domain>.com   \
+        --key-file   /etc/nginx/ssl/<domain>.key \
         --fullchain-file /etc/nginx/ssl/fullchain.cer \
-        --reloadcmd  "service nginx force-reload"
+        --reloadcmd  "nginx -s reload"
 ```
 重新为自己的网站配置 Nginx(覆盖之前的配置)
 ```
