@@ -48,16 +48,16 @@ $ acme.sh  --installcert  -d  <domain>.com   \
 重新为自己的网站配置 Nginx(覆盖之前的配置)
 ```
 server {
-  listen  443 ssl;
-  ssl on;
-  ssl_certificate       /etc/nginx/ssl/fullchain.cer;
-  ssl_certificate_key   /etc/nginx/ssl/<domain>.key;
-  ssl_protocols         TLSv1 TLSv1.1 TLSv1.2;
-  ssl_ciphers           HIGH:!aNULL:!MD5;
-  server_name           <domain>;
-      location / {
-      # 以下省略 ...
-      }
+    listen  443 ssl;
+    ssl on;
+    ssl_certificate       /etc/nginx/ssl/fullchain.cer;
+    ssl_certificate_key   /etc/nginx/ssl/<domain>.key;
+    ssl_protocols         TLSv1 TLSv1.1 TLSv1.2;
+    ssl_ciphers           HIGH:!aNULL:!MD5;
+    server_name           <domain>;
+        location / {
+        # 以下省略 ...
+        }
 }
 ```
 重启 Nginx
