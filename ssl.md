@@ -33,7 +33,7 @@ server {
 ```
 $ nginx
 ```
-<b>为网站生成证书
+<b>为网站生成证书</b>
 ```
 $ ./acme.sh --issue  -d <domain>  --nginx
 ```
