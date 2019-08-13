@@ -65,7 +65,7 @@ $ apt install nginx
 server {
     charset utf-8;
     listen 80;
-    server_name <domain>;
+    server_name mydomain.com;
 
     location / {
         proxy_set_header Host 'www.google.com';
