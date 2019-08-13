@@ -131,7 +131,8 @@ $ nginx -s reload
 ```
 
 ### 设置 Crypto 和 开启中转
-1. 在 CLOUNDFLARE 的 Crypto 选项 SSL 设置为 Full
+<i>*不执行这一步则不会使用 "CDN转发", 如 IP 可用则不建议开启, 开启通常会导致减速.</i>
+1. 在 CLOUNDFLARE 的 Crypto 选项 SSL 设置为 Full.
 2. 在 CLOUNDFLARE 的 DNS 选项 Status 设置为 DNS and HTTP proxy(CDN)(把云朵点亮).
 
 ### 客户端设置
