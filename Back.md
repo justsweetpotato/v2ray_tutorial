@@ -156,7 +156,7 @@ $ nginx -s reload
       "settings": {
         "vnext": [
           {
-            "address": "mydomain.me",
+            "address": "mydomain.com",
             "port": 443,
             "users": [
               {
