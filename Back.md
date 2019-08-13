@@ -81,6 +81,7 @@ $ nginx
 2. 安装 acme.sh(用来生成证书)
 ```
 $ curl  https://get.acme.sh | sh
+# 此命令会在 ~ 目录生成 .acme.sh 文件夹
 ```
 ```
 $ cd .acme.sh/
@@ -89,6 +90,7 @@ $ cd .acme.sh/
 3. 为网站生成证书
 ```
 $ acme.sh --issue  -d mydomain.com  --nginx --force
+# .acme.sh 文件夹下有一个 acme.sh 文件 注意不要弄混淆了
 ```
 
 4. copy/install 证书
