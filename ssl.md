@@ -6,7 +6,7 @@
 $ curl  https://get.acme.sh | sh
 # 此命令会创建 ~/.acme.sh/ 文件夹
 $ cd .acme.sh/
-# ~/.acme.sh/ 文件夹下有一个 .acme.sh 文件 注意不要混淆
+# ~/.acme.sh/ 文件夹下有一个 acme.sh 文件 注意不要混淆
 ```
 
 ### 生成证书
