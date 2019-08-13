@@ -25,7 +25,10 @@
 [来源: <a href="https://program-think.blogspot.com/2019/06/gfw-news.html">2019 年 6 月翻墙快报（兼谈用 I2P 突破封锁）</a>].
 
 ### 个人建议
-架设梯子的时候一定要使用 TLS 加密: 1:加密了流量, 2:是真正的 HTTPS. WebSocket + TLS 是目前我发现最稳的方法. 要是你的梯子不幸已经被封了 IP, 可以套上 CDN(用来做转发)救活, 但是速度会受一定影响.
+架设梯子的时候一定要使用 TLS 加密:<br> 
+1:加密了传输的流量.<br>
+2:是真正的 HTTPS. 并非伪装的 HTTPS.<br>
+WebSocket + TLS 是目前我发现最稳的方法. 要是你的梯子不幸已经被封了 IP, 可以套上 CDN(用来做转发)救活, 但是速度会受一定影响.
 
 ### 解决方案
 <a href="https://github.com/justsweetpotato/V2Ray_Tutorial/blob/master/Back.md">使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP</a>
