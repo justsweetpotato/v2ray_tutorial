@@ -33,4 +33,4 @@ location /v2-ui {
 ### 一些小想法
 虽然 v2ray 不支持限速限流(Nginx 支持, 还在学习中...), v2-ui 中带有"流量统计"和"停用账号"功能, 那么应该可以对每个账号设置一个流量上限, 到达流量上限后自动停用账号, 在月底清空已用流量, 并重新启用账号. 应该是可以实现的, 作者是用 Python 写的, 有时间研究研究可以加上这些功能~吧.<br>  
 <br>
-<a href="https://github.com/Anankke/SSPanel-Uim">SSPanel</a> 支持上述功能. 这个是机场源码 - -, 对我来说过于臃肿了, 还是打算自己加上这个功能吧.
+<a href="https://github.com/Anankke/SSPanel-Uim">SSPanel</a> 支持上述功能. 这个是机场源码 - -, 对我来说过于臃肿了, 还是打算自己加上这个功能~吧.
