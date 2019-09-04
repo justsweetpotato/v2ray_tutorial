@@ -2,14 +2,14 @@
 <i>小白也能看得懂的 V2Ray 教程(也许吧XD).</i>
 
 ### 教程
-<a href="https://github.com/justsweetpotato/V2Ray_Tutorial/blob/master/ssl.md">使用 acme.sh 免费给网站配置证书</a>
-
+<a href="https://github.com/justsweetpotato/v2ray_tutorial/blob/master/auto.md"></a><br>
+<a href="https://github.com/justsweetpotato/V2Ray_Tutorial/blob/master/ssl.md">使用 acme.sh 免费给网站配置证书</a><br>
 <a href="https://github.com/justsweetpotato/V2Ray_Tutorial/blob/master/Back.md">使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP</a>
 
 <hr>
 <i>2019/08 GFW 陆续解除了对国外一些 VPS 服务商网段的封锁.</i><br>
----
-以下是近期(2019/06)<b>翻墙状况</b>报告, 不感兴趣可直接忽略.<br>
+<hr>
+以下是 2019/06 <b>翻墙状况</b>报告, 不感兴趣可直接忽略.<br>
 <hr>
 
 ### 问题分析
