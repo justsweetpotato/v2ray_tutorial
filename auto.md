@@ -8,7 +8,7 @@
 $ bash <(curl -Ls https://blog.sprov.xyz/v2-ui.sh)
 ```
 
-### 配置
+### 配置面板
 显示管理菜单
 ```
 $ v2-ui 
