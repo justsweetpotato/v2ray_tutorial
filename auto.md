@@ -1,5 +1,6 @@
 ## 使用 v2-ui 面板完成傻瓜式部署(超简单)
-
+v2-ui 是一个支持多协议的 v2ray 控制面板, 可以简单的在可视化页面上设置 v2ray, 支持多账号, 支持统计流量, 可随时停用账号.<br>
+<br>
 感谢 sprov065 所写的这个 v2ray 面板, 非常方便的设置和管理 v2ray.<br>
 项目地址: <a href="https://github.com/sprov065/v2-ui">Github</a> 官方教程: <a href="https://blog.sprov.xyz/2019/08/03/v2-ui/">v2-ui</a>
 
