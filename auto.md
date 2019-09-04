@@ -1,6 +1,6 @@
 ## 使用 v2-ui 面板完成傻瓜式部署(超简单)
 
-感谢 sprov065 所写的这个 v2ray 面板, 非常方便的设置和管理 v2ray.
+感谢 sprov065 所写的这个 v2ray 面板, 非常方便的设置和管理 v2ray.<br>
 项目地址在: <a href="https://github.com/sprov065/v2-ui">Github</a>
 
 ### 一键安装
