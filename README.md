@@ -6,8 +6,9 @@
 
 <a href="https://github.com/justsweetpotato/V2Ray_Tutorial/blob/master/Back.md">使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP</a>
 
-<i>2019/08 GFW 陆续解除了对国外一些 VPS 服务商网段的封锁.</i><br>
 <hr>
+<i>2019/08 GFW 陆续解除了对国外一些 VPS 服务商网段的封锁.</i><br>
+---
 以下是近期(2019/06)<b>翻墙状况</b>报告, 不感兴趣可直接忽略.<br>
 <hr>
 
