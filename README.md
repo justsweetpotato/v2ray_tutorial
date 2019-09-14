@@ -7,8 +7,11 @@
 <a href="https://github.com/justsweetpotato/V2Ray_Tutorial/blob/master/Back.md">使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP</a>
 
 <hr>
-<i>2019/08 GFW 陆续解除了对国外一些 VPS 服务商网段的封锁.</i><br>
-<i>以下是 2019/06 <b>翻墙状况</b>报告, 不感兴趣可直接忽略.</i><br>
+搬瓦工线路测试<br>
+![bwh](https://github.com/justsweetpotato/markdown-img-store/blob/master/v2ray/bwh.png)
+<hr>
+2019/08 GFW 陆续解除了对国外一些 VPS 服务商网段的封锁.<br>
+👇 2019/06 <b>翻墙状况</b>报告, 不感兴趣可直接忽略.
 
 ### 问题分析
 在 2019 年 6 月初这段时间, 梯子出现大面积被封锁的状况.
