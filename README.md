@@ -7,7 +7,7 @@
 <a href="https://github.com/justsweetpotato/V2Ray_Tutorial/blob/master/Back.md">使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP</a>
 
 <hr>
-2019/09/下旬(10/01) 梯子大面积被封锁, 主要为使用 Shadoowsocks， V2ray mKCP(封锁端口), 这两者的共同点是流量未经 TLS 加密.<br>
+2019/09/下旬(10/01) 梯子大面积被封锁, 主要为使用 Shadoowsocks， V2Ray mKCP(封锁端口), 这两者的共同点是流量未经 TLS 加密.(据一些机场的消息, Shadowsocks 全网 95% 的线路被封锁, 可以确定 GFW 2.0 已能精准识别 Shadowsocks.)<br>
 2019/08 GFW 陆续解除了对国外一些 VPS 服务商网段的封锁.<br>
 2019/06/上旬(06/04) 梯子大面积被封锁, 主要为使用 Shadowsocks 的服务器, 以及知名 VPS 服务商 IP 段.
 <hr>
