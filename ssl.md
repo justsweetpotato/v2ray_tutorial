@@ -26,7 +26,7 @@ server {
     server_name <domain>;
 
     location / {
-        proxy_set_header Host 'www.google.com';
+        proxy_set_header Host www.google.com;
         proxy_pass https://www.google.com;
     }
 }
