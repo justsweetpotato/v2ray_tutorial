@@ -7,6 +7,8 @@
 <a href="https://github.com/justsweetpotato/V2Ray_Tutorial/blob/master/Back.md">使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP</a>
 
 ### 记录
-2019/09/下旬 梯子大面积被封锁, 主要为热门 VPS 服务商 IP 段.<br>
-2019/08 GFW 陆续解除了对国外一些 VPS 服务商网段的封锁.<br>
-2019/06/上旬 梯子大面积被封锁, 主要为热门 VPS 服务商 IP 段.
+2019/10/下旬 四中全会召开期间出现干扰,速度大幅降低,结束后恢复正常
+2019/10/中旬 解除封锁
+2019/09/下旬 大面积封锁,多为热门 VPS 服务商网段<br>
+2019/08/上旬 解除封锁<br>
+2019/06/上旬 大面积封锁,多为热门 VPS 服务商网段
