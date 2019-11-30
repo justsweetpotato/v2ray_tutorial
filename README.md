@@ -7,11 +7,20 @@
 <a href="https://github.com/justsweetpotato/V2Ray_Tutorial/blob/master/Back.md">使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP</a>
 
 ### 记录
-2019/10/下旬 四中全会召开期间出现干扰, 速度大幅降低, 结束后恢复正常<br>
-2019/10/中旬 解除封锁<br>
-2019/09/下旬 大面积封锁, 多为热门 VPS 服务商网段<br>
-2019/08/上旬 解除封锁<br>
-2019/06/上旬 大面积封锁, 多为热门 VPS 服务商网段<br>
+#### 2019
+##### 11 月
+day21-day30 国外 IP 长时间大流量使用网络即会被 TCP 阻断 2-10 分钟，循环往复，疑似 GFW 新型 TCP 阻断方式。我本人暂时没有遇到这样状况，使用 V2Ray 的 WebSocket + TLS / WebSocket + TLS + CDN / mKCP 模式均可应对此种封锁<br>
+##### 10 月
+day21-day30 会议召开期间出现干扰，速度大幅降低，之后恢复正常 敏感事件：四中全会<br>
+
+day11-day20 解除封锁<br>
+##### 9 月
+day21-day30 大面积封锁, 多为热门 VPS 服务商网段 敏感事件：国庆<br>
+##### 8 月
+day1-day10 解除封锁<br>
+
+##### 6 月
+day1-day10 大面积封锁, 多为热门 VPS 服务商网段 敏感事件：六四 30 周年<br>
 
 *封锁与否与使用 Shadowsocks 或 V2Ray 协议无关, 与你所使用的 VPS 服务商有关(是否被重点关注,是否是美国,日本等热门地区), 即 GFW 现阶段还不能精准识别各种用于翻墙的协议.
 <br>
