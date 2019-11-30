@@ -23,13 +23,14 @@ Trojan 的原理有些类似于 V2Ray 的 WebSocket 模式<br>
 <i>day11-day20</i><br>
 解除封锁<br>
 ##### 9 月
-<i>day21-day30</i>
+<i>day21-day30</i><br>
 大面积封锁, 多为热门 VPS 服务商网段 <b>敏感事件：国庆</b><br>
 ##### 8 月
-<i>day1-day10</i> 解除封锁<br>
+<i>day1-day10</i><br>
+解除封锁<br>
 
 ##### 6 月
-<i>day1-day10</i>
+<i>day1-day10</i><br>
 大面积封锁, 多为热门 VPS 服务商网段 <b>敏感事件：六四 30 周年</b><br>
 
 *封锁与否与使用 Shadowsocks 或 V2Ray 协议无关, 与你所使用的 VPS 服务商有关(是否被重点关注,是否是美国,日本等热门地区), 即 GFW 现阶段还不能精准识别各种用于翻墙的协议.
