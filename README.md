@@ -8,7 +8,7 @@
 
 ### 记录
 <details>
-  <summary><b>2020</b><summary>
+  <summary><b>2020</b></summary>
     
   ##### 2月
   <i>day1-</i><br>
