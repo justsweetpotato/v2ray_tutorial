@@ -12,7 +12,7 @@
     
   ##### 2月
   <i>day1-?</i><br>
-  封锁 IP，cloudflare CDN 被干扰 <b>敏感事件：2019 新型冠状病毒爆发</b>
+  封锁 IP，cloudflare CDN 被干扰 <b>敏感事件：2019-2020 新型冠状病毒疫情爆发</b>
 </details>
 
 <details>
