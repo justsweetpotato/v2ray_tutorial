@@ -8,7 +8,7 @@
 
 ### 记录
 <details>
-<summary>#### 2019</summary>
+<summary>2019</summary>
   
 ##### 11 月
 <i>day21-day30</i><br> 
@@ -36,4 +36,4 @@ Trojan 的原理有些类似于 V2Ray 的 WebSocket 模式（配置更简单）<
 大面积封锁 IP, 多为热门 VPS 服务商网段 <b>敏感事件：六四 30 周年</b><br>
 </details>
 
-*封锁与否与使用 Shadowsocks 或 V2Ray 协议无关, 与你所使用的 VPS 服务商有关(是否被重点关注,是否是美国,日本等热门地区), 即 GFW 现阶段还不能精准识别各种用于翻墙的协议.
+*封锁与否与使用 Shadowsocks 或 V2Ray 协议无关，与你所使用的 VPS 服务商有关（是否被重点关注，是否是美国，日本等热门地区），即 GFW 现阶段还不能精准识别各种用于翻墙的协议，敏感时期会直接封锁 搬瓦工、Vultr 机房所在的 IP 段（通常一个月后会解封，建议上 CDN），使用大厂如 Google Cloud、Amazon Web Services 可大幅度减少被封可能。
