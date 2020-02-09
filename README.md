@@ -8,7 +8,8 @@
 
 ### 记录
 <details>
-#### <summary>2019</summary>
+<summary>#### 2019</summary>
+  
 ##### 11 月
 <i>day21-day30</i><br> 
 有网友反映与国外 IP 非常规端口大流量通信即会被 TCP 阻断 2-10 分钟，循环往复，疑似 GFW 新型 TCP 阻断方式<br>
