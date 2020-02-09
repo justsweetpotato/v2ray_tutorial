@@ -7,7 +7,8 @@
 <a href="https://github.com/justsweetpotato/V2Ray_Tutorial/blob/master/Back.md">使用 WebSocket + TLS + Nginx + CDN 救活被墙 IP</a>
 
 ### 记录
-#### 2019
+<details>
+#### <summary>2019</summary>
 ##### 11 月
 <i>day21-day30</i><br> 
 有网友反映与国外 IP 非常规端口大流量通信即会被 TCP 阻断 2-10 分钟，循环往复，疑似 GFW 新型 TCP 阻断方式<br>
@@ -32,5 +33,6 @@ Trojan 的原理有些类似于 V2Ray 的 WebSocket 模式（配置更简单）<
 ##### 6 月
 <i>day1-day10</i><br>
 大面积封锁 IP, 多为热门 VPS 服务商网段 <b>敏感事件：六四 30 周年</b><br>
+</details>
 
 *封锁与否与使用 Shadowsocks 或 V2Ray 协议无关, 与你所使用的 VPS 服务商有关(是否被重点关注,是否是美国,日本等热门地区), 即 GFW 现阶段还不能精准识别各种用于翻墙的协议.
