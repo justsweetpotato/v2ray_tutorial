@@ -11,9 +11,8 @@
   <summary><b>2020</b></summary>
     
   ##### 2月
-  <i>day1-</i><br>
+  <i>day1-?</i><br>
   服务器被封锁 <b>敏感事件：2019 新型冠状病毒爆发</b>
-
 </details>
 
 <details>
