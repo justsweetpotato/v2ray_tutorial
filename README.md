@@ -9,10 +9,15 @@
 ### 记录
 <details>
   <summary><b>2020</b></summary>
+  
+  ##### 4月
+  <i>day20-day30</i><br>
+  IP 解除封锁
     
   ##### 2月
   <i>day1-?</i><br>
-  封锁 IP，cloudflare CDN 被干扰 <b>敏感事件：2019-2020 新型冠状病毒疫情爆发</b>
+  封锁 IP，cloudflare CDN 被干扰 <b>敏感事件：2019-2020 新型冠状病毒疫情爆发</b><br>
+  PS: 期间本人首次遇到被墙 IP 无法连接到国内 IP, 以及大流量通信被随机阻断的情况
 </details>
 
 <details>
@@ -21,7 +26,7 @@
   ##### 11 月
   <i>day21-day30</i><br> 
   有网友反映与国外 IP 非常规端口大流量通信即会被 TCP 阻断 2-10 分钟，循环往复，疑似 GFW 新型 TCP 阻断方式<br>
-  我本人暂时没有遇到这样状况，使用 V2Ray 的 WebSocket + TLS / WebSocket + TLS + CDN / mKCP 模式, 或 Trojan 均可应对此种封锁<br>
+  本人暂时没有遇到这样状况，使用 V2Ray 的 WebSocket + TLS / WebSocket + TLS + CDN / mKCP 模式, 或 Trojan 均可应对此种封锁<br>
   WebSocket 与 Nginx 配合(加上证书)可以让 GFW 看来就是在访问普通网站，真正的 HTTPS 流量<br>
   mKCP 是基于 UDP 协议，故 GFW 的 TCP 阻断无效<br>
   Trojan 的原理有些类似于 V2Ray 的 WebSocket 模式（配置更简单）<br>
@@ -31,13 +36,13 @@
   四中全会召开期间出现干扰，速度大幅降低，之后恢复正常 <b>敏感事件：四中全会</b><br>
   <br>
   <i>day11-day20</i><br>
-  解除封锁 IP<br>
+  IP 解除封锁<br>
   ##### 9 月
   <i>day21-day30</i><br>
   大面积封锁 IP, 多为热门 VPS 服务商网段 <b>敏感事件：国庆</b><br>
   ##### 8 月
   <i>day1-day10</i><br>
-  解除封锁 IP<br>
+  IP 解除封锁<br>
 
   ##### 6 月
   <i>day1-day10</i><br>
