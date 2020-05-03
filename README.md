@@ -15,7 +15,7 @@
   IP 解除封锁<br>
   新发现:<br>
     - 1, Shadowsocks 使用一段时间后, 在<b>宽带网络</b>下测试发现端口被封禁(使用netcat从本机无法连接, 其他端口正常), 切换到<b>手机网络</b>则能正常使用; 换端口部署后, 宽带网络与手机网络均能正常使用(宽带网络下使用一段时间后可能再次被封禁). 由此推导->封禁 Shadowsocks 端口的行为由运营商做出, 与 GFW 无关, GFW 无法识别 Shadowsocks(不包括 ShadowsocksR), 但合理怀疑运营商与 GFW 均能识别 TCP, UDP, 以及各种未知协议, 其中运营商会封锁 UDP 协议的大流量连接, 证据之一就是在宽带网络下使用 BitTorrent 类软件下载速度极慢或无法下载, 使用代理后速度回复至正常水平.<br>
-    - 2, V2Ray 的 mKCP 协议基于 UDP, 一直是追求速度的理想选择, 缺点则是无法与 Cloudflare CDN 兼容使用, 自服务器解封后, mKCP 线路仍处于无法使用的状态(端口封禁), 即使换端口部署, 也是使用极短时间后被封(宽带网络&手机网络), WebSock 模式则正常, 由于缺乏在不同运营商环境下测试的条件, 暂时无法确定封禁端口的行为是由运营商还是 GFW 做出, 但基于 mKCP 的 UDP 特征明显以及对 Shadowsocks 的测试合理推测-> GFW 仍然无法识别 Shadowsocks(不包括 ShadowsocksR) 与 V2Ray mKCP, 封禁端口的行为由运营商做出.<br>
+    - 2, V2Ray 的 mKCP 协议基于 UDP, 一直是追求速度的理想选择, 缺点则是无法与 Cloudflare CDN 兼容使用, 自服务器解封后, mKCP 线路仍处于无法使用的状态(端口封禁), 即使换端口部署, 也是使用极短时间后被封(宽带网络&手机网络), WebSocket 模式则正常, 由于缺乏在不同运营商环境下测试的条件, 暂时无法确定封禁端口的行为是由运营商还是 GFW 做出, 但基于 mKCP 的 UDP 特征明显以及对 Shadowsocks 的测试合理推测-> GFW 仍然无法识别 Shadowsocks(不包括 ShadowsocksR) 与 V2Ray mKCP, 封禁端口的行为由运营商做出.<br>
     PS: 据说 Google 基于 UDP 开发的 QUIC 协议将作为未来 HTTP3 的标准, 国内运营商这么歧视 UDP 真是看不明白了, 经过改良的 UDP 优势明显, UDP 才是未来吧.
     
   ##### 2月
