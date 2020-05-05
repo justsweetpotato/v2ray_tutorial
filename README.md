@@ -54,4 +54,4 @@
   大面积封锁 IP, 多为热门 VPS 服务商网段 <b>敏感事件：六四 30 周年</b><br>
 </details>
 
-*封锁与否与使用 Shadowsocks 或 VMess 协议无关，与你所使用的 VPS 服务商有关（是否被重点关注，是否是美国，日本等热门地区），即 GFW 现阶段还不能精准识别各种用于翻墙的协议，敏感时期会直接封锁 搬瓦工、Vultr 机房所在的 IP 段（通常一个月后会解封，建议上 CDN），使用大厂如 Google Cloud、Amazon Web Services 可大幅度减少被封可能。
+*服务器 IP 被封锁与使用 Shadowsocks 或 VMess 协议无关，与你所使用的 VPS 服务商有关（是否被重点关注，是否是美国，日本等热门地区），即 GFW 现阶段至少还不能精准识别这两种用于翻墙的协议，敏感时期 GFW 会直接封锁 搬瓦工、Vultr 等热门机房所在的 IP 段（通常一个月后会解封，建议上 CDN），使用大厂如 Google Cloud、Amazon Web Services 可大幅度减少服务器 IP 被封可能。同时，你可能需要仔细分辨是否是本地宽带运营商封杀 UDP 协议导致端口被封禁，放弃 V2Ray mKCP 转而使用 V2Ray WebSocket，不使用 Shadowsocks(TCP+UDP), 仅使用 Shadowsocks(TCP) 可有效避免这种情况。另外说明的是，ShadowsocksR 这种画蛇添足的东西就不要用了。 
