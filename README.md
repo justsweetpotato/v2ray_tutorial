@@ -28,10 +28,9 @@
   ##### 11 月
   <i>day21-day30</i><br> 
   有网友反映与国外 IP 非常规端口大流量通信即会被 TCP 阻断 2-10 分钟，循环往复，疑似 GFW 新型 TCP 阻断方式<br>
-  本人暂时没有遇到这样状况，使用 V2Ray 的 WebSocket + TLS / WebSocket + TLS + CDN / mKCP 模式, 或 Trojan 均可应对此种封锁<br>
-  WebSocket 与 Nginx 配合(加上证书)可以让 GFW 看来就是在访问普通网站，真正的 HTTPS 流量<br>
-  mKCP 是基于 UDP 协议，故 GFW 的 TCP 阻断无效<br>
-  Trojan 的原理有些类似于 V2Ray 的 WebSocket 模式（配置更简单）<br>
+  使用 V2Ray 的 WebSocket + TLS / WebSocket + TLS + CDN 或 Trojan 均可应对此种封锁<br>
+  WebSocket + TLS 在 GFW 看来与访问普通网站无异，建议根目录跑一个网站模板，使之更像一个普通网站<br>
+  Trojan 相当于简化版的 V2Ray WebSocket 模式（配置更简单）<br>
 
   ##### 10 月
   <i>day21-day30</i><br> 
